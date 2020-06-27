@@ -8,8 +8,8 @@ function App() {
 
       </header>
 
-      <Button> hello </Button>
-      <Button size={ButtonSize.Small}>小按钮</Button>
+      <Button autoFocus> hello </Button>
+      <Button className='custom' size={ButtonSize.Small}>小按钮</Button>
       <Button btnType={ButtonType.Danger}>危险</Button>
       <Button btnType={ButtonType.Primary}> 选中 </Button>
       <Button btnType={ButtonType.Link} href='www:baidu.com'>hello word</Button>
