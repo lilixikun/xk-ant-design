@@ -1,6 +1,5 @@
 import React from 'react'
 import classNames from 'classnames'
-import { type } from 'os'
 
 export enum ButtonSize {
     Large = 'lg',
@@ -31,7 +30,7 @@ type AnchorButtonProps = BaseButtonProps & React.AnchorHTMLAttributes<HTMLElemen
 /** 串联button 原始属性 */
 export type ButtonProps = Partial<NativeButtonProps & AnchorButtonProps>
 
-const Button: React.FC<ButtonProps> = (props) => {
+export const Button: React.FC<ButtonProps> = (props) => {
     const {
         btnType,
         disabled,
